@@ -42,7 +42,7 @@ export default {
     methods: {
         submit() {
             addNews(this.news).then((data)=>{
-                cosnole.log(data);
+                console.log(data);
             });
         }
     },
